@@ -221,20 +221,22 @@ p{
   }
 
 
-  .container__responsive ul li{
+   .container__responsive ul li{
     width: 125%;
-    padding: 20px;
     border: 1px solid white;
     position: relative;
     left: -40px;
     text-align: center;
   }
   .container__responsive-ul a{
+    display: block;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     background-color: #94B3FD;
     color:#000;
+    padding: 20px;
+
   }
 
 }
